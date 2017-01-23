@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-step-functions",
+  "version": "0.0.0",
+  "description": "lints aws step functions state machine json",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Bryan Gamble",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "joi": "^10.2.0",
+    "jshint": "^2.9.4"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
