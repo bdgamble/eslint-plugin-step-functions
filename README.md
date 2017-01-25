@@ -1,5 +1,7 @@
 # eslint-plugin-step-functions
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bdgamble/eslint-plugin-step-functions.svg)](https://greenkeeper.io/)
+
 lints aws step functions state machine json
 
 ## Installation
