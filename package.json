@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-step-functions",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "lints aws step functions state machine json",
   "keywords": [
     "eslint",
@@ -10,18 +10,31 @@
   "author": "Bryan Gamble",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "istanbul cover --root lib node_modules/mocha/bin/_mocha -- tests --recursive",
+    "posttest": "eslint ."
   },
   "dependencies": {
-    "joi": "^10.2.0",
-    "jshint": "^2.9.4"
+    "joi": "10.2.0",
+    "jshint": "2.9.4",
+    "json-path-position-info": "0.0.2"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "eslint": "~3.9.1",
+    "eslint-plugin-mocha": "^4.8.0",
+    "istanbul": "^0.4.5",
     "mocha": "^3.1.2"
   },
-  "engines": {
-    "node": ">=0.10.0"
+  "license": "MIT",
+  "directories": {
+    "test": "tests"
   },
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdgamble/eslint-plugin-step-functions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bdgamble/eslint-plugin-step-functions/issues"
+  },
+  "homepage": "https://github.com/bdgamble/eslint-plugin-step-functions#readme"
 }
