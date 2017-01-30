@@ -1,11 +1,13 @@
 {
   "name": "eslint-plugin-step-functions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "lints aws step functions state machine json",
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "aws",
+    "stepfunctions"
   ],
   "author": "Bryan Gamble",
   "main": "lib/index.js",
